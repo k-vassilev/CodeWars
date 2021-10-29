@@ -14,8 +14,6 @@ function duplicateEncode(word){
 			result.push('(');
 		}
 	}
-	console.log(result.join(''));
-	
-    
+	return result.join('');
 }
 duplicateEncode("(( @");
